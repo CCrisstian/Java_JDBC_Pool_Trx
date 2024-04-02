@@ -1,0 +1,1 @@
+SELECT * FROM java_curso.productos as p inner join categorias as c on (p.categoria_id=c.id);
