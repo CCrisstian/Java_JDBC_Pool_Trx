@@ -9,6 +9,7 @@ public class Producto {
     private Integer precio;
     private Date fecha_registro;
     private Categoria categoria;
+    private String sku;
 /*------------------GETTER-SETTER------------------*/
     public Long getId() {
         return id;
@@ -49,6 +50,15 @@ public class Producto {
     public void setCategoria(Categoria categoria) {
         this.categoria = categoria;
     }
+
+    public String getSku() {
+        return sku;
+    }
+
+    public void setSku(String sku) {
+        this.sku = sku;
+    }
+
 /*------------------CONSTRUCTOR------------------*/
     public Producto(Long id, String nombre, Integer precio, Date fecha_registro) {
         this.id = id;
@@ -66,6 +76,7 @@ public class Producto {
                 nombre+" | "+
                 precio+" | "+
                 fecha_registro+" | "+
-                categoria.getNombre();
+                categoria.getNombre()+" | "+
+                sku;
     }
 }

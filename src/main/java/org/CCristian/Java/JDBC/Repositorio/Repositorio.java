@@ -1,15 +1,19 @@
 package org.CCristian.Java.JDBC.Repositorio;
 
+import java.sql.Connection;
+import java.sql.SQLException;
 import java.util.List;
 
 public interface Repositorio <T>{
 
 /*------------------MÉTODOS------------------*/
-    List<T> listar();
+    void setConn(Connection conn);
 
-    T buscarPorId(Long id);
+    List<T> listar() throws SQLException;
 
-    void guardar(T t);
+    T buscarPorId(Long id) throws SQLException;
 
-    void eliminar(Long id);
+    T guardar(T t) throws SQLException;
+
+    void eliminar(Long id) throws SQLException;
 }
