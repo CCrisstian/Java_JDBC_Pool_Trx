@@ -1,4 +1,4 @@
-<h1 align="center">Patrón de diseño Service</h1>
+<h1 align="center">Patrón de diseño 'Service'</h1>
 <p>El uso del patrón de diseño <b>'Service'</b> desempeña un papel crucial en la arquitectura de software para desacoplar la lógica de negocio de otras capas de la aplicación, como la lógica de acceso a datos y la lógica de presentación. Aquí hay algunas razones clave por las cuales es importante usar el patrón Service para desacoplar la lógica de negocio:</p>
 
 -    <b>Separación de preocupaciones</b>: El patrón Service permite separar la lógica de negocio de la lógica de acceso a datos y la lógica de presentación. Esto hace que el código sea más modular y fácil de entender, ya que cada componente se centra en una tarea específica.
