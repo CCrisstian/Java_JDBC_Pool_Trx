@@ -1,5 +1,4 @@
 package org.CCristian.Java.JDBC;
-
 import org.CCristian.Java.JDBC.Models.Categoria;
 import org.CCristian.Java.JDBC.Models.Producto;
 import org.CCristian.Java.JDBC.Service.CatalogoServicio;
