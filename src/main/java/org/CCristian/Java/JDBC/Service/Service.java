@@ -14,7 +14,7 @@ public interface Service {
 
     List<Categoria> listarCategoria() throws SQLException;
     Categoria porIdCategoria(Long id) throws SQLException;
-    Categoria guardarCategoria() throws SQLException;
+    Categoria guardarCategoria(Categoria categoria) throws SQLException;
     void eliminarCategoria(Long id) throws SQLException;
 
     void guardarProductoConCategoria(Producto producto, Categoria categoria) throws SQLException;
